@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000//trips
+content-type: application/json
+
+{
+    "name": "Arroz",
+    "category": "Alimentos",
+    "amount": 5000,
+    "value": 4.95
+}
+
+### 
+GET http://localhost:3000/product
+
+### 
+GET http://localhost:3000/product/
+
+###
+POST http://localhost:3000/product/
+
+###
+DELETE http://localhost:3000/product/
