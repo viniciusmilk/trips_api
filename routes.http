@@ -1,22 +1,17 @@
 ###
-POST http://localhost:3000//trips
+POST http://localhost:3000/trips
 content-type: application/json
 
-{
-    "name": "Arroz",
-    "category": "Alimentos",
-    "amount": 5000,
-    "value": 4.95
-}
+    {
+        "destination": "Sao Luis",
+        "start_date": "01-07-2024",
+        "end_date": "06-07-2024",
+        "owner_name": "Rafa",
+        "owner_email": "rafa@email.com",
+        "emails_to_invite": ["email1@com", "email2@com"]
+    }
 
 ### 
-GET http://localhost:3000/product
-
-### 
-GET http://localhost:3000/product/
-
-###
-POST http://localhost:3000/product/
-
+GET http://localhost:3000/product/trips/
 ###
 DELETE http://localhost:3000/product/
