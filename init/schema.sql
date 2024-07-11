@@ -40,4 +40,3 @@ CREATE TABLE IF NOT EXISTS 'activities' (
   occurs_at DATETIME,
   FOREIGN KEY (trip_id) REFERENCES trips(id)
 );
-
