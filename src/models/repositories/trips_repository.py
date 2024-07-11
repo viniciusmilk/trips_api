@@ -29,3 +29,4 @@ class TripsRepository:
                        WHERE id = ?''',
                        (trip_id,))
         self.__conn.commit()
+        self.__conn.close()
